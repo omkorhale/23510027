@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    display: inline;
+    font-size: 2em;
+}
+
+header img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.payment-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.payment-section .product-details {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.payment-section .product-details img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.payment-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-section form input,
+.payment-section form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.payment-section form button {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.payment-section form button:hover {
+    background-color: #218838;
+}
+
+
+.purchase-confirmation h2 {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.purchase-confirmation .product-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.purchase-confirmation .product-details img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.purchase-confirmation button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.purchase-confirmation button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
